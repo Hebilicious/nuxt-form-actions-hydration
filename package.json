@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.3",
+    "h3": "1.8.0-rc.3",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@hebilicious/form-actions-nuxt": "link:../../form-actions-nuxt/packages/form-actions-nuxt"
+  },
+  "resolutions": {
+    "h3": "1.8.0-rc.3"
+  }
+}
